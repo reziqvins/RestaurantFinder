@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free restaurant delicious for you" />
+    <meta name="theme-color" content="#DB0000" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <title>Restaurant Finder</title>
+  </head>
+
+  <body>
+    <a href="#/explore" class="skip-link" tabindex="0">Menuju Content</a>
+    <header class="app-bar">
+      <div class="app-bar__menu">
+        <button id="hamburgerButton">☰</button>
+      </div>
+      <div class="app-bar__brand">
+        <h1>
+          <a href="/">Restaurant <span>Finder</span></a>
+        </h1>
+      </div>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li>
+            <a href="https://github.com/reziqvins" target="_blank">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <picture>
+        <source
+          type="image/jpeg"
+          media="all and (max-width: 600px)"
+          srcset="./images/hero-image_2-small.jpg"
+        />
+        <img
+          class="hero-image lazyload"
+          src="./images/hero-image_2-large.jpg"
+          alt="background aplikasi"
+        />
+      </picture>
+    </div>
+    <main id="mainContent" tabindex="0">
+      <div class="tagline">
+        <h1>Search Restourant</h1>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <p>
+        Copyright©2022 <span class="footer__txtResto">Restaurant</span
+        ><span class="footer__txtFinder">Finder</span> All right reserved.
+      </p>
+      <p class="poweredBy">Powered by Muhammad Reziq Darusman</p>
+    </footer>
+  </body>
+</html>
